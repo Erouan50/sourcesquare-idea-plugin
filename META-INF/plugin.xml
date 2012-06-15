@@ -17,6 +17,12 @@
 
   <actions>
     <!-- Add your actions here -->
+
+      <action id="SourceSquarePlugin.ScanAction" class="com.erouan.sourcesquare.plugin.ScanAction"
+              text="Source Square Scan porject" description="Scan the project to find open source files">
+          <add-to-group group-id="ToolsMenu" anchor="last"/>
+          <keyboard-shortcut keymap="$default" first-keystroke="ctrl alt S"/>
+      </action>
   </actions>
 
   <extensions defaultExtensionNs="com.intellij">
